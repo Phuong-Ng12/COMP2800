@@ -10,7 +10,7 @@ const cors = require("cors");
 const User = require("./models/user");
 const fs = require("fs");
 const app = express();
-const port = 8000;
+const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
